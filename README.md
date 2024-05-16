@@ -6,7 +6,7 @@ Welcome to the Stock Monitoring Platform documentation. This platform allows use
 
 To get started with the Stock Monitoring Platform, follow the steps below:
 
-1. Clone the repository from GitHub: [Stock Monitoring Platform Repository](https://github.com/your-repository-url)
+1. Clone the repository from GitHub.
 2. Install the required dependencies by running the following command:
 
    ```bash
@@ -25,7 +25,7 @@ To get started with the Stock Monitoring Platform, follow the steps below:
    python manage.py runserver
    ```
 
-5. Access the platform at [http://localhost:3000](http://localhost:3000) in your web browser.
+5. Access the platform at [http://127.0.0.1:8000] in your web browser.
 
 ## User Authentication
 
@@ -60,6 +60,7 @@ Include the following JSON payload in the request body:
 ```json
 {
   "username": "example_username",
+  "email": "example@example.com",
   "password": "example_password"
 }
 ```
@@ -104,4 +105,7 @@ The dashboard also provides real-time stock prices for the symbols in the user's
   - Django (Python)
   - PostgreSQL
 
+Project Development Report-
 
+1) Backend Functionality Working Perfectly with authentication and Stock price Fetching.
+2) Frontend still Requires some work but will be improved in coming time.
